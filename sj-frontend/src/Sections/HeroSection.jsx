@@ -14,13 +14,13 @@ const HeroSection = () => {
 
   ]
   return (
-    <div >
+    <div className="lg:h-screen  w-screen">
         <div
-          className=" flex items-center relative z-0"
+          className=" flex  items-center z-0 transition-transform ease-out duration-500 w-full"
         >
-          <Carousel >
-            {heroImages.map((images) =>(
-              <img src={images} alt="Images" />
+          <Carousel autoslide={true} autoslideInterval={3500}>
+            {...heroImages.map((images) =>(
+              <img className="object-cover" src={images} alt="Images" />
             ))}
           </Carousel>
 

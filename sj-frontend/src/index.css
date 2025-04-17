@@ -5,3 +5,14 @@ body{
   padding: 0%;
   box-sizing: border-box;
 }
+@keyframes move-left {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+.animate-move-left {
+  animation: move-left 10s linear infinite;
+}

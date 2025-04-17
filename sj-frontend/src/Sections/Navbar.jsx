@@ -44,7 +44,7 @@ const Navbar = () => {
     <div>
       <div
         ref={navRef}
-        className="fixed top-0 left-0 w-full flex items-center justify-center py-6 px-8 z-99 bg-transparent transition-all duration-500 text-white "
+        className="fixed top-0 left-0 w-full flex items-center justify-center py-6 px-8 z-99 bg-transparent transition-all duration-500 text-white drop-shadow-md"
       >
         <div className="flex items-center justify-between w-full max-w-screen-xl mx-auto font-semibold">
           <div className="flex items-center gap-4">
